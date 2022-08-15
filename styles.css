@@ -1,0 +1,42 @@
+@font-face {
+    font-family: supermario;
+    src: url("fonts/SuperMario256.ttf");
+}
+
+body {
+    background-image: url("images/toad_bgd.png");
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: supermario;
+    color: rgb(221, 221, 55);
+    text-shadow: 4px 4px 0px black;
+    font-size: 100px;
+}
+
+h2 {
+   font-size: 70px;
+}
+
+.btn {
+    font-size: 30px;
+    background-color: rgb(7, 206, 7);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-a {
+    background-color: rgb(7, 206, 7);
+}
+
+.btn-d {
+    background-color: rgb(245, 0, 0);
+}
+
+.btn-ans {
+    background-color: rgb(114, 13, 245);
+}
