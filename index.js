@@ -8,25 +8,26 @@ let answerEl = document.getElementById("answer-el")
 
 function add1() {
     count1 += + 1
-    count1El.innerText = count1
+    count1El.textContent = count1
 }
 
 function subtract1() {
     count1 += -1
-    count1El.innerText = count1
+    count1El.textContent = count1
 }
 
 function add2() {
     count2 += + 1
-    count2El.innerText = count2
+    count2El.textContent = count2
 }
 
 function subtract2() {
     count2 += -1
-    count2El.innerText = count2
+    count2El.textContent = count2
 }
 
-// function answer() {
-//     answer = count1 * count2
-//     answerEl.innerText = answer
-// }
+function multiply() {
+    let answer = count1 * count2
+    console.log(answer)
+    answerEl.textContent = answer
+}

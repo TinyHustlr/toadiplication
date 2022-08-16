@@ -19,6 +19,16 @@ h2 {
    font-size: 70px;
 }
 
+.digits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
 .btn {
     font-size: 30px;
     background-color: rgb(7, 206, 7);
